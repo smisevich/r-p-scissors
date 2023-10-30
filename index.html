@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="text-container">
+            <h2 class="challenge">Plankton's computer wife challenges you to a game. Choose wisely.</h2>
+            <h3 class="challenge" id="result-text"></h3>
+        </div>
+        <div class="btn-container">
+            <button class="btn" onclick="playGame('rock')">Rock</button>
+            <button class="btn" onclick="playGame('paper')">Paper</button>
+            <button class="btn" onclick="playGame('scissors')">Scissors</button>
+        </div>
+        <div class="trackers">
+            <h2 id="win">Wins: 0</h2>
+            <h2 id="loss">Losses: 0</h2>
+            <h2 id="draw">Draws: 0</h2>
+        </div>
+        <button class="btn" onclick="reset()">Reset</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
